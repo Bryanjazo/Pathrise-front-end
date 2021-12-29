@@ -1,0 +1,58 @@
+@import "../abstracts/variables";
+.Home_section {
+  &_heading {
+    background-color: $color-grey-light-3;
+    height: 10rem;
+  }
+}
+.heading-primary {
+  width: 90%;
+  font-weight: 800;
+  padding: 3rem 0rem 0rem 0rem;
+  backface-visibility: hidden;
+  font-size: 3rem;
+}
+.u-margin-bottom-big {
+  margin-bottom: 3rem;
+}
+
+.card {
+  background-color: $color-grey-light-3;
+  width: 100%;
+  max-height: 80%;
+  height: 20rem;
+  margin-bottom: 5rem;
+
+  &_image {
+    width: 13%;
+    margin: 0rem 2rem 0rem 3rem;
+  }
+  &_description {
+    width: 58%;
+    font-size: 1.4rem;
+  }
+}
+
+.great_text {
+  float: right;
+  font-weight: 700;
+  padding: 1rem 1rem 0rem 0rem;
+  text-align: right;
+  color: #75d18a;
+}
+
+.aligned {
+  margin-top: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+.Link:hover {
+  text-decoration: none;
+  color: black;
+}

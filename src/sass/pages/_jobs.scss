@@ -1,0 +1,67 @@
+.source {
+  &_title {
+    background-color: white;
+    margin-bottom: 2rem;
+    padding-left: 0.8rem;
+  }
+  &_container {
+  }
+}
+.content {
+  &:not(:last-child) {
+    margin-right: 15rem;
+  }
+}
+.titles {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.job {
+  font-size: 0.9rem;
+
+  &_url {
+    font-size: 1rem;
+  }
+}
+
+.source {
+  background-color: white;
+}
+#trHeader {
+  font-size: 1.4rem;
+}
+
+.rows {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+th {
+  padding-left: 0.8rem;
+}
+table {
+  width: 100%;
+  border-spacing: 0px;
+  table-layout: fixed;
+  margin-left: auto;
+  border-collapse: separate;
+  margin-right: auto;
+  border-spacing: 0 15px;
+}
+
+td {
+  overflow: hidden;
+  padding-left: 1rem;
+  white-space: nowrap;
+}
+
+.url {
+  text-decoration: none;
+  color: black;
+  width: 1rem !important;
+  &:hover {
+    text-decoration: none;
+    color: black;
+  }
+}

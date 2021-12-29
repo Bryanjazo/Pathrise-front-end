@@ -20,9 +20,9 @@ To start please input in your terminal
 
 ### `bundle install`
 
-## For this application to work youre going to need the back end repo so please navigate to (https://github.com/Bryanjazo/Pathrise-back-end)
+## For this application to work you're going to need the back end repo so please navigate to (https://github.com/Bryanjazo/Pathrise-back-end)
 
-Please start back end server. Instructions should be inputed in the ReadMe.
+Please start back end server. Instructions should be input in the ReadMe.
 
 ## Packages used.
 

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router";
+import { Link } from "react-router-dom";
 import "../../sass/pages/_jobs.scss";
 export default function Jobs() {
   let location = useLocation();
@@ -26,7 +27,9 @@ export default function Jobs() {
         {console.log(jobSource)}
         <div className="source">
           <div className="source_title">
-            <h1 className="source_heading">Job Source: {names}</h1>
+            <Link to="/" className="url">
+              <h1 className="source_heading">Job Source: {names}</h1>
+            </Link>
           </div>
           <div className="source">
             <table>

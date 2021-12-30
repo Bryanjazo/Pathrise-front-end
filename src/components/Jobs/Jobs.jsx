@@ -18,7 +18,9 @@ export default function Jobs() {
   if (jobSource.error) {
     return (
       <div className="">
-        <h1>{jobSource.error}</h1>
+        <Link to="/" className="url">
+          <h1>{jobSource.error}</h1>
+        </Link>
       </div>
     );
   } else {
